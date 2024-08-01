@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.guitarTypes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  animation: intro 2s ease-out;
+  align-items: center;
+}

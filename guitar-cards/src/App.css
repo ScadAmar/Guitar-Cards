@@ -1,0 +1,75 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+p,
+li,
+a {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2,
+h3 {
+  font-size: 24px;
+}
+
+li {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #333333;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(#0e0e0e, #333333, #8e3034);
+}
+
+.sectionTitle {
+  font-size: 50px;
+  /*text-transform: uppercase;*/
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  background-color: #8e3034;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200px;
+    color: white;
+  }
+}
+
+button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+section {
+  margin-top: 100px;
+}

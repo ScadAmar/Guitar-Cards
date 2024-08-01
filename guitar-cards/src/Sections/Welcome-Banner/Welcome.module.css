@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  width: 60%;
+  color: white;
+  /*text-shadow: 2px 1px 3px black;*/
+  animation: intro 2s ease-out;
+  padding-bottom: 10px;
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@keyframes intro {
+  from {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
