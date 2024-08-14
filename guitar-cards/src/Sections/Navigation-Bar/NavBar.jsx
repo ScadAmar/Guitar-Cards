@@ -5,7 +5,10 @@ function NavBar() {
   return (
     <header id="Navigation" className={styles.container}>
       <nav>
-        <img src={NavBarLogo} alt="Scad Studio Logo" className="logo" />
+        <a href="">
+          <img src={NavBarLogo} alt="Scad Studio Logo" className="logo" />
+        </a>
+
         <ul>
           <li>
             <a href="#welcome">Home</a>
@@ -17,7 +20,7 @@ function NavBar() {
             <a href="#learnMore">Learn More</a>
           </li>
           <li>
-            <a href="#contactUs">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </nav>
