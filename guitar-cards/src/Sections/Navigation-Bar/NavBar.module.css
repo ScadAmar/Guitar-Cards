@@ -26,3 +26,13 @@ nav {
     }
   }
 }
+
+/*.container .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  visibility: visible;
+  opacity: 1;
+}*/
